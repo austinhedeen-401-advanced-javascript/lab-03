@@ -1,7 +1,8 @@
 # Lab 03 - Async
 #### *Author: Austin Hedeen*
 
-A
+Reads, modifies, and writes data to and from a file on the system using
+asynchronous programming techniques.
 
 ### Modules
 
