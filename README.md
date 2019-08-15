@@ -1,8 +1,24 @@
-## `edit-file.js`
+# Lab 03 - Async
+#### *Author: Austin Hedeen*
+
+A
+
+### Modules
+
+#### `edit-file.js`
 Reads content and writes modified content back to a data file using asynchronous callbacks.
 
-## `edit-file-promise.js`
+#### `edit-file-promise.js`
 Reads content and writes modified content back to a data file using promises.
+
+#### `json-utils.js`
+Utility functions for handling JSON objects.
+
+### Dependencies
+* jest
+* faker
+
+## Usage
 
 ### CLI entry
 `$ node edit-file.js {path/to/data/file}`  
