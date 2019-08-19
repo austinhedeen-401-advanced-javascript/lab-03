@@ -25,14 +25,4 @@ const editFilePromise = fileName => {
     });
 };
 
-// CLI entry
-if (process.argv.length >= 3) {
-  console.log('Executing via CLI:');
-  editFilePromise(process.argv[2]);
-} else if (process.argv[1].endsWith(__filename)) {
-  console.error(`Error: Required argument 'filename'`);
-  process.exit(1);
-}
-
-// Module entry
 module.exports = editFilePromise;
